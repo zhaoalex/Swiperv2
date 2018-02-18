@@ -36,7 +36,6 @@ class ViewController: UIViewController {
         
         do {
             let myHTMLString = try String(contentsOf: myURL, encoding: .ascii)
-            //print(myHTMLString)
             let doc: Document = try! SwiftSoup.parse(myHTMLString)
             let mainContent: Elements = try! doc.select("#main-content").select("div").select("h2 ~ div").select(".half-col,.whole-col")
             
@@ -49,11 +48,6 @@ class ViewController: UIViewController {
                     food.append(name)
                 }
             }
-            
-            /*for div in mainContent {
-             print(div)
-             
-             }*/
             
             return food
         } catch let error {
