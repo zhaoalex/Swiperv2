@@ -45,7 +45,7 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Determining your future...." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxR-NH-bgL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Determining your future...." textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KxR-NH-bgL">
                                 <rect key="frame" x="16" y="563" width="343" height="72"/>
                                 <color key="backgroundColor" red="0.87186706852791884" green="0.0" blue="0.74603037458612853" alpha="0.080654965753424693" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -85,6 +85,7 @@
                             <constraint firstItem="hp6-Ow-UnC" firstAttribute="trailing" secondItem="poN-UU-mtJ" secondAttribute="trailing" id="Dfg-MT-hWV"/>
                             <constraint firstItem="WMY-cl-JTG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="JRN-0H-HRj"/>
                             <constraint firstItem="hp6-Ow-UnC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LCa-tC-ykw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KxR-NH-bgL" secondAttribute="trailing" constant="16" id="Npa-i3-0Ra"/>
                             <constraint firstItem="poN-UU-mtJ" firstAttribute="top" secondItem="hp6-Ow-UnC" secondAttribute="bottom" id="TFB-RJ-TW3"/>
                             <constraint firstItem="WMY-cl-JTG" firstAttribute="centerX" secondItem="KxR-NH-bgL" secondAttribute="centerX" id="TTz-po-ZvD"/>
                             <constraint firstItem="gmP-cw-eQd" firstAttribute="top" secondItem="hp6-Ow-UnC" secondAttribute="bottom" constant="49" id="VFa-fN-W3F"/>
@@ -107,7 +108,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Button-BG" width="256" height="256"/>
-        <image name="Image" width="160" height="240"/>
+        <image name="Button-BG" width="512" height="512"/>
+        <image name="Image" width="320" height="480"/>
     </resources>
 </document>
