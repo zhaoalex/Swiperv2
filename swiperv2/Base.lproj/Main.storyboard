@@ -35,7 +35,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="SWIPER">
                                         <attributes>
-                                            <color key="NSColor" red="0.87186706852791884" green="0.77529835760087684" blue="0.0" alpha="0.81164383561643838" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="NSColor" red="0.58522301873957006" green="0.0" blue="0.76679489213197971" alpha="0.81164383561643838" colorSpace="custom" customColorSpace="displayP3"/>
                                             <font key="NSFont" size="50" name="Noteworthy-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -57,10 +57,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Button-BG">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Give me food">
+                                        <fragment content="FUTURE">
                                             <attributes>
-                                                <color key="NSColor" red="0.12707528893804282" green="0.87186706852791884" blue="0.00041910643604567378" alpha="0.81000000000000005" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="21" name="Impact"/>
+                                                <color key="NSColor" red="0.97659393511300674" green="1" blue="0.90792745851930812" alpha="0.81000000000000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="21" name="Luminari-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
