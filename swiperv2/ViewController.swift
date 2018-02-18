@@ -5,13 +5,11 @@
 //  Created by Alex Zhao on 2/17/18.
 //  Copyright © 2018 HOTH. All rights reserved.
 //
-
 import UIKit
 import SwiftSoup
 
 class ViewController: UIViewController {
-    
-    var options : [String] = ["Bruin Plate", "Covel Commons", "De Neve", "Feast at Rieber", "Bruin Café", "1919", "The Study at Hedrick"]
+    var options: [String]?
     @IBOutlet weak var resultLabel: UILabel!
     @IBAction func makeDecision(_ sender: UIButton) {
         let idx = Int(arc4random_uniform(UInt32(options!.count)))
@@ -20,10 +18,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-            
+        options = getData()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -62,7 +60,7 @@ class ViewController: UIViewController {
             print("Error: \(error)")
         }
         return [String]()
-    }
+}
 
 
 }
