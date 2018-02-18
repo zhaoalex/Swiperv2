@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0344275FF023D07764BFB89A /* Pods_swiperv2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA038212AF8BF1B5AAE0DE64 /* Pods_swiperv2UITests.framework */; };
 		1559633E203907E500728C11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559633D203907E500728C11 /* AppDelegate.swift */; };
 		15596340203907E500728C11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559633F203907E500728C11 /* ViewController.swift */; };
 		15596343203907E500728C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15596341203907E500728C11 /* Main.storyboard */; };
@@ -14,8 +15,7 @@
 		15596348203907E500728C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15596346203907E500728C11 /* LaunchScreen.storyboard */; };
 		15596353203907E500728C11 /* swiperv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15596352203907E500728C11 /* swiperv2Tests.swift */; };
 		1559635E203907E500728C11 /* swiperv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559635D203907E500728C11 /* swiperv2UITests.swift */; };
-		2EC345F649DD1AD3998A1FCC /* Pods_swiperv2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B247671BD439314A5BC474ED /* Pods_swiperv2UITests.framework */; };
-		F62C7BC3837B37FE9DD78040 /* Pods_swiperv2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9725022F6100B2B09DB71BDC /* Pods_swiperv2Tests.framework */; };
+		1D79E7E826425B4EADE9ADD7 /* Pods_swiperv2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55343937C2F18CAEA10535F3 /* Pods_swiperv2Tests.framework */; };
 		F715E38DDFD3D7C0750B9BC6 /* Pods_swiperv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE29376A6A5782F54AD85CE /* Pods_swiperv2.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,11 +52,11 @@
 		1559635F203907E500728C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BE29376A6A5782F54AD85CE /* Pods_swiperv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiperv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		308606908CFE0B7ECA5B9F77 /* Pods-swiperv2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiperv2.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiperv2/Pods-swiperv2.release.xcconfig"; sourceTree = "<group>"; };
+		55343937C2F18CAEA10535F3 /* Pods_swiperv2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiperv2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		880B005505F7E5C33A87EA62 /* Pods-swiperv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiperv2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiperv2/Pods-swiperv2.debug.xcconfig"; sourceTree = "<group>"; };
 		92C993736E121090078F8941 /* Pods-swiperv2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiperv2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiperv2UITests/Pods-swiperv2UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9725022F6100B2B09DB71BDC /* Pods_swiperv2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiperv2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		985CCB627249DDFC0FDF7F39 /* Pods-swiperv2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiperv2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiperv2UITests/Pods-swiperv2UITests.release.xcconfig"; sourceTree = "<group>"; };
-		B247671BD439314A5BC474ED /* Pods_swiperv2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiperv2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA038212AF8BF1B5AAE0DE64 /* Pods_swiperv2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiperv2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8978FED2788EF341D4FB8AD /* Pods-swiperv2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiperv2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiperv2Tests/Pods-swiperv2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F3E97EF44BF19D137CA96409 /* Pods-swiperv2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiperv2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiperv2Tests/Pods-swiperv2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F62C7BC3837B37FE9DD78040 /* Pods_swiperv2Tests.framework in Frameworks */,
+				1D79E7E826425B4EADE9ADD7 /* Pods_swiperv2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EC345F649DD1AD3998A1FCC /* Pods_swiperv2UITests.framework in Frameworks */,
+				0344275FF023D07764BFB89A /* Pods_swiperv2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,8 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				2BE29376A6A5782F54AD85CE /* Pods_swiperv2.framework */,
-				9725022F6100B2B09DB71BDC /* Pods_swiperv2Tests.framework */,
-				B247671BD439314A5BC474ED /* Pods_swiperv2UITests.framework */,
+				55343937C2F18CAEA10535F3 /* Pods_swiperv2Tests.framework */,
+				BA038212AF8BF1B5AAE0DE64 /* Pods_swiperv2UITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -321,7 +321,7 @@
 		};
 		44A19A4CDC2C5FABD5231124 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -627,7 +627,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2HFG395R4;
 				INFOPLIST_FILE = swiperv2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhaoalex.swiperv2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -642,7 +644,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H2HFG395R4;
 				INFOPLIST_FILE = swiperv2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhaoalex.swiperv2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
