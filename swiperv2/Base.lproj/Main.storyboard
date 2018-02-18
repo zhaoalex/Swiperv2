@@ -20,26 +20,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="poN-UU-mtJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="poN-UU-mtJ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmP-cw-eQd">
-                                <rect key="frame" x="85" y="20" width="205" height="66"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="66" id="hF3-Ku-93G"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="SWIPER">
-                                        <attributes>
-                                            <color key="NSColor" red="0.76679489213197971" green="0.0" blue="0.31061007054483891" alpha="0.81164383561643838" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="50" name="Noteworthy-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KxR-NH-bgL">
                                 <rect key="frame" x="16" y="535" width="343" height="100"/>
                                 <color key="backgroundColor" red="0.87186706852791884" green="0.0" blue="0.74603037458612853" alpha="0.080654965753424693" colorSpace="custom" customColorSpace="displayP3"/>
@@ -56,8 +39,11 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WMY-cl-JTG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WMY-cl-JTG">
                                 <rect key="frame" x="72" y="340" width="231" height="218"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="218" id="4C3-hz-HQl"/>
+                                </constraints>
                                 <state key="normal" backgroundImage="Button-BG">
                                     <attributedString key="attributedTitle">
                                         <fragment content="FUTURE">
@@ -73,21 +59,38 @@
                                     <action selector="makeDecision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Wy-yj-rnz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmP-cw-eQd">
+                                <rect key="frame" x="85" y="93" width="205" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="hF3-Ku-93G"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="SWIPER">
+                                        <attributes>
+                                            <color key="NSColor" red="0.76679489213197971" green="0.0" blue="0.31061007054483891" alpha="0.81164383561643838" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="50" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="KxR-NH-bgL" firstAttribute="top" secondItem="WMY-cl-JTG" secondAttribute="bottom" constant="8" symbolic="YES" id="0Av-B5-gu4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KxR-NH-bgL" secondAttribute="bottom" constant="32" id="0Jh-XS-9kx"/>
+                            <constraint firstItem="poN-UU-mtJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0qz-tW-dgc"/>
                             <constraint firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3Hl-WX-u3u"/>
-                            <constraint firstItem="poN-UU-mtJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7fi-EZ-wl1"/>
-                            <constraint firstAttribute="trailing" secondItem="poN-UU-mtJ" secondAttribute="trailing" id="Dfg-MT-hWV"/>
-                            <constraint firstItem="WMY-cl-JTG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="JRN-0H-HRj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WMY-cl-JTG" secondAttribute="bottom" constant="109" id="JYD-ao-gcH"/>
                             <constraint firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LCa-tC-ykw"/>
+                            <constraint firstItem="WMY-cl-JTG" firstAttribute="centerX" secondItem="KxR-NH-bgL" secondAttribute="centerX" id="LVB-ja-tTq"/>
+                            <constraint firstItem="WMY-cl-JTG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="MnF-qX-E5x"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KxR-NH-bgL" secondAttribute="trailing" constant="16" id="Npa-i3-0Ra"/>
-                            <constraint firstItem="WMY-cl-JTG" firstAttribute="centerX" secondItem="KxR-NH-bgL" secondAttribute="centerX" id="TTz-po-ZvD"/>
-                            <constraint firstAttribute="leading" secondItem="poN-UU-mtJ" secondAttribute="leading" id="fP9-5v-36u"/>
+                            <constraint firstItem="poN-UU-mtJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="RQB-yg-4ps"/>
+                            <constraint firstItem="poN-UU-mtJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Zrt-pJ-91U"/>
                             <constraint firstItem="KxR-NH-bgL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jmx-gI-giA"/>
-                            <constraint firstItem="gmP-cw-eQd" firstAttribute="centerX" secondItem="WMY-cl-JTG" secondAttribute="centerX" id="qMU-38-rVm"/>
+                            <constraint firstItem="poN-UU-mtJ" firstAttribute="centerX" secondItem="KxR-NH-bgL" secondAttribute="centerX" id="uKB-fi-bjV"/>
                             <constraint firstItem="gmP-cw-eQd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="vZh-fd-ql4"/>
                             <constraint firstAttribute="centerX" secondItem="gmP-cw-eQd" secondAttribute="centerX" id="wWj-Yq-QdB"/>
                         </constraints>
