@@ -14,6 +14,9 @@
 		15596348203907E500728C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15596346203907E500728C11 /* LaunchScreen.storyboard */; };
 		15596353203907E500728C11 /* swiperv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15596352203907E500728C11 /* swiperv2Tests.swift */; };
 		1559635E203907E500728C11 /* swiperv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1559635D203907E500728C11 /* swiperv2UITests.swift */; };
+		2EC345F649DD1AD3998A1FCC /* Pods_swiperv2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B247671BD439314A5BC474ED /* Pods_swiperv2UITests.framework */; };
+		F62C7BC3837B37FE9DD78040 /* Pods_swiperv2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9725022F6100B2B09DB71BDC /* Pods_swiperv2Tests.framework */; };
+		F715E38DDFD3D7C0750B9BC6 /* Pods_swiperv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE29376A6A5782F54AD85CE /* Pods_swiperv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		15596359203907E500728C11 /* swiperv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiperv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1559635D203907E500728C11 /* swiperv2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiperv2UITests.swift; sourceTree = "<group>"; };
 		1559635F203907E500728C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE29376A6A5782F54AD85CE /* Pods_swiperv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiperv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		308606908CFE0B7ECA5B9F77 /* Pods-swiperv2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiperv2.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiperv2/Pods-swiperv2.release.xcconfig"; sourceTree = "<group>"; };
+		880B005505F7E5C33A87EA62 /* Pods-swiperv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiperv2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiperv2/Pods-swiperv2.debug.xcconfig"; sourceTree = "<group>"; };
+		92C993736E121090078F8941 /* Pods-swiperv2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiperv2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiperv2UITests/Pods-swiperv2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9725022F6100B2B09DB71BDC /* Pods_swiperv2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiperv2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		985CCB627249DDFC0FDF7F39 /* Pods-swiperv2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiperv2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiperv2UITests/Pods-swiperv2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		B247671BD439314A5BC474ED /* Pods_swiperv2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiperv2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8978FED2788EF341D4FB8AD /* Pods-swiperv2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiperv2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiperv2Tests/Pods-swiperv2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F3E97EF44BF19D137CA96409 /* Pods-swiperv2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiperv2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiperv2Tests/Pods-swiperv2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F715E38DDFD3D7C0750B9BC6 /* Pods_swiperv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F62C7BC3837B37FE9DD78040 /* Pods_swiperv2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EC345F649DD1AD3998A1FCC /* Pods_swiperv2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				15596351203907E500728C11 /* swiperv2Tests */,
 				1559635C203907E500728C11 /* swiperv2UITests */,
 				1559633B203907E500728C11 /* Products */,
+				CD588D03ED56C3653496FADB /* Pods */,
+				CE6F9A095F7F7E6293E6981F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = swiperv2UITests;
 			sourceTree = "<group>";
 		};
+		CD588D03ED56C3653496FADB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				880B005505F7E5C33A87EA62 /* Pods-swiperv2.debug.xcconfig */,
+				308606908CFE0B7ECA5B9F77 /* Pods-swiperv2.release.xcconfig */,
+				F3E97EF44BF19D137CA96409 /* Pods-swiperv2Tests.debug.xcconfig */,
+				E8978FED2788EF341D4FB8AD /* Pods-swiperv2Tests.release.xcconfig */,
+				92C993736E121090078F8941 /* Pods-swiperv2UITests.debug.xcconfig */,
+				985CCB627249DDFC0FDF7F39 /* Pods-swiperv2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE6F9A095F7F7E6293E6981F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE29376A6A5782F54AD85CE /* Pods_swiperv2.framework */,
+				9725022F6100B2B09DB71BDC /* Pods_swiperv2Tests.framework */,
+				B247671BD439314A5BC474ED /* Pods_swiperv2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15596362203907E500728C11 /* Build configuration list for PBXNativeTarget "swiperv2" */;
 			buildPhases = (
+				52F7791DFE192BEB5AEFE3CF /* [CP] Check Pods Manifest.lock */,
 				15596336203907E500728C11 /* Sources */,
 				15596337203907E500728C11 /* Frameworks */,
 				15596338203907E500728C11 /* Resources */,
+				44A19A4CDC2C5FABD5231124 /* [CP] Embed Pods Frameworks */,
+				7C835BFD1F6F596820EFFBFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15596365203907E500728C11 /* Build configuration list for PBXNativeTarget "swiperv2Tests" */;
 			buildPhases = (
+				A7F913536F60F4A27C5509AE /* [CP] Check Pods Manifest.lock */,
 				1559634A203907E500728C11 /* Sources */,
 				1559634B203907E500728C11 /* Frameworks */,
 				1559634C203907E500728C11 /* Resources */,
+				4B108180E229E501E81B87B3 /* [CP] Embed Pods Frameworks */,
+				24D29AD0F3C3B6F2A22009F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15596368203907E500728C11 /* Build configuration list for PBXNativeTarget "swiperv2UITests" */;
 			buildPhases = (
+				683A007C3F2A7E97D43058C7 /* [CP] Check Pods Manifest.lock */,
 				15596355203907E500728C11 /* Sources */,
 				15596356203907E500728C11 /* Frameworks */,
 				15596357203907E500728C11 /* Resources */,
+				D359D42B6633A6BAF3ECA7BA /* [CP] Embed Pods Frameworks */,
+				71EEC7BDE156C583EC865F72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24D29AD0F3C3B6F2A22009F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiperv2Tests/Pods-swiperv2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44A19A4CDC2C5FABD5231124 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swiperv2/Pods-swiperv2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiperv2/Pods-swiperv2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B108180E229E501E81B87B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiperv2Tests/Pods-swiperv2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F7791DFE192BEB5AEFE3CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiperv2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		683A007C3F2A7E97D43058C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiperv2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71EEC7BDE156C583EC865F72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiperv2UITests/Pods-swiperv2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C835BFD1F6F596820EFFBFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiperv2/Pods-swiperv2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F913536F60F4A27C5509AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiperv2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D359D42B6633A6BAF3ECA7BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiperv2UITests/Pods-swiperv2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15596336203907E500728C11 /* Sources */ = {
@@ -424,6 +623,7 @@
 		};
 		15596363203907E500728C11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880B005505F7E5C33A87EA62 /* Pods-swiperv2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +638,7 @@
 		};
 		15596364203907E500728C11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308606908CFE0B7ECA5B9F77 /* Pods-swiperv2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +653,7 @@
 		};
 		15596366203907E500728C11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E97EF44BF19D137CA96409 /* Pods-swiperv2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +670,7 @@
 		};
 		15596367203907E500728C11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8978FED2788EF341D4FB8AD /* Pods-swiperv2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +687,7 @@
 		};
 		15596369203907E500728C11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C993736E121090078F8941 /* Pods-swiperv2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +703,7 @@
 		};
 		1559636A203907E500728C11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985CCB627249DDFC0FDF7F39 /* Pods-swiperv2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
